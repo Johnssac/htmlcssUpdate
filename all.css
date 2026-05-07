@@ -47,6 +47,46 @@ table {
 	border-spacing: 0;
 }
 
-h1{
-	color: blue;
+.wrap{
+	margin: 0 auto;
+	width: 1146px;
+}
+
+.banner{
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #e7eeea;
+}
+
+.banner img{
+	width: 150px;
+}
+
+.banner h1{
+	padding: 15px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #37523d;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.footer .menu{
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer h2{
+	padding: 15px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #37523d;
 }
